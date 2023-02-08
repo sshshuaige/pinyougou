@@ -1,0 +1,309 @@
+.w .main {
+    position: relative;
+    height: 455px;
+    width: 980px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    height: 455px;
+    width: 720px;
+}
+
+.main .newsFlash {
+    float: right;
+    /* background-color: skyblue; */
+    height: 455px;
+    width: 250px;
+}
+
+.newsFlash .news {
+    height: 165px;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+
+.newsFlash .lifestyle {
+    height: 213px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    border-right: 0;
+}
+
+.newsFlash .bargin {
+    background-color: aqua;
+    height: 77px;
+}
+
+.news .hd {
+    font-size: 14px;
+    color: #333333;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.hd h4 {
+    float: left;
+}
+
+.hd .more {
+    float: right;
+
+}
+
+.hd .more::after {
+    content: '\ea42';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+.bd {
+    height: 131px;
+    font-size: 14px;
+}
+
+
+.bd ul li {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.bd ul li h4 {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.lifestyle ul {
+    width: 255px;
+}
+
+.lifestyle ul li {
+    width: 62px;
+    height: 71px;
+    float: left;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifestyle ul li i {
+    /* 转换为行内块元素可以用text-align居中 */
+    display: inline-block;
+    height: 28px;
+    width: 24px;
+    margin-top: 12px;
+    margin-left: 22px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.lifestyle ul li p {
+    text-align: center;
+}
+
+/* 侧边栏区域 */
+.sidebar {
+    position: absolute;
+    top: 157px;
+    left: -295px;
+}
+
+.sidebar ul li a {
+    display: inline-block;
+    padding-left: 5px;
+    height: 30px;
+    width: 56px;
+    line-height: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+
+.sidebar ul li a:hover {
+    color: #fff;
+    background-color: #c81623;
+}
+
+/* 推荐模块 */
+.recom {
+    margin-top: 10px;
+    height: 163px;
+}
+
+.recom .hd {
+    position: relative;
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+}
+
+.recom .hd .font {
+    position: absolute;
+    font-family: 'icomoon';
+    top: 30px;
+    left: 70px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.recom .hd p {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.recom .bd img {
+    float: left;
+}
+
+.cai {
+    height: 260px;
+    margin-top: 30px;
+}
+
+.cai .hd {
+    height: 30px;
+}
+
+.cai .hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+
+.cai .hd a {
+    float: right;
+    font-size: 12px;
+}
+
+.cai .hd a::after {
+    content: '\ea42';
+    font-family: 'icomoon';
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cai .bd img {
+    float: left;
+}
+
+.boke {
+    margin-top: 30px;
+    height: 433px;
+}
+
+.boke .hd h4 {
+    height: 30px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.dianqi {
+    height: 390px;
+}
+
+.dianqi .hd {
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.dianqi .hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dianqi .hd ul {
+    float: right;
+}
+
+.dianqi .hd .tab_list ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.dianqi .hd .tab_list ul li a {
+    margin: 0 15px;
+}
+
+.dianqi .bd .tab_content {
+    height: 360px;
+}
+
+.shouji {
+    height: 390px;
+}
+
+.shouji .hd {
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.shouji .hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.shouji .hd ul {
+    float: right;
+}
+
+.shouji .hd .tab_list ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.shouji .hd .tab_list ul li a {
+    margin: 0 15px;
+}
+
+.shouji .bd .tab_content {
+    height: 360px;
+}
+
+.diannao {
+    height: 390px;
+}
+
+.diannao .hd {
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.diannao .hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.diannao .hd ul {
+    float: right;
+}
+
+.diannao .hd .tab_list ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.diannao .hd .tab_list ul li a {
+    margin: 0 15px;
+}
+
+.diannao .bd .tab_content {
+    height: 360px;
+}

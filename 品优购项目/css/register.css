@@ -1,0 +1,109 @@
+header {
+    border-bottom: 2px solid #b1191a;
+}
+
+footer {
+    margin-top: 57px;
+    height: 120px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+nav {
+    margin-top: 24px;
+    border-bottom: 0;
+    height: 42px;
+    background-color: #ececec;
+}
+
+nav .hd {
+    float: left;
+    font-size: 18px;
+    color: #333;
+    padding-left: 10px;
+    line-height: 42px;
+}
+
+nav .bd {
+    float: right;
+    line-height: 42px;
+    padding-right: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+nav .bd a {
+    color: #b1191a;
+}
+
+.form {
+    margin: 50px auto;
+    width: 600px;
+    height: 370px;
+}
+
+.form ul li {
+    margin-top: 20px;
+}
+
+.form ul li label {
+    display: inline-block;
+    width: 88px;
+    font-size: 14px;
+    color: #4c4c4c;
+    text-align: right;
+}
+
+.form ul li .inp {
+    height: 37px;
+    width: 240px;
+    border: 1px solid #ccc;
+}
+
+.form ul li span {
+    color: #df3033;
+    font-size: 12px;
+}
+
+.form ul .safe {
+    margin-top: 0px;
+    padding-left: 180px;
+}
+
+.safe em {
+    display: inline-block;
+    height: 13px;
+    padding: 0 10px;
+    line-height: 13px;
+}
+
+.safe em:nth-child(2) {
+    background-color: #de1111;
+}
+
+.safe em:nth-child(3) {
+    background-color: #40b83f;
+}
+
+.safe em:nth-child(4) {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 100px;
+}
+
+.agree .xieyi a {
+    font-size: 12px;
+    color: #1ba1e6;
+}
+
+.zhuce {
+    display: block;
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    margin-left: 110px;
+    background-color: #c81623;
+}
